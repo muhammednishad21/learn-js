@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // /*--------space and reverse---------
+
+        // const arr = ("          a good        example ")
+        // let split = arr.split(" ")
+
+        // let result =[]
+        // split.forEach(element => {
+        //     if(element!==""){
+        //         result.push(element)
+
+        //     }
+        // });
+
+        // console.log(result.reverse().join(" "))
+
+
+        // ------capitalize odd numbers----
+
+        // const str = "bridgeon";
+        // let split = str.split("");
+        // let newstr = '';
+     
+        // for (let i = 0; i < split.length; i++) {
+        //     if (i % 2 ===0) {
+        //         newstr += split[i].toUpperCase();
+        //   } else {
+        //         newstr += split[i];
+        //     }
+        // }
+        // console.log(newstr);
+
+
+        //  -------longest sentence------
+
+
+        // let arr = ["Welcome To Bridgeon", "Hello World", "code your future with bridgeon"];
+        // let longest = "";
+
+        // for (let i = 0; i < arr.length; i++) {
+        //     if (arr[i].length > longest.length) {
+        //         longest = arr[i];
+        //     }
+        // }
+
+        // console.log(longest);
+
+
+
+        let total = 0;
+        let str ="iiisd";
+        let val = 0;
+
+        for(let i=0 ; i < str.length; i++){
+            if (str[i] === "i" ){
+                val += 1
+            }else if (str[i]=== "d") {
+                val += -1
+            }else if (str[i]==="s"){
+                 val *= val
+            }else{
+                val += 0
+            }
+        }
+        console.log(val);
+
+
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>
